@@ -52,10 +52,29 @@
             </div>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium facere doloribus, et quibusdam, odit, nam officia praesentium amet harum similique accusantium! Nobis amet error, impedit nemo dolore deserunt distinctio,</p>
+                    <p class="text">Оставьте свои данные, мы вам перезвоним</p>
+                    <form>
+                        <label for="name">Имя
+                            <input type="text" name="name" id="name">
+                        </label>
+
+                        <label for="tel">Телефон
+                            <input type="text" name="tel" id="tel">
+                        </label>
+
+                        <label for="mail">Почта
+                            <input type="email" name="mail" id="mail">
+                        </label>
+
+                        <label for="comment">Комментарий</label>
+                        <textarea name="comment" id="comment" rows="10"></textarea>
+                        
+
+                        <button type="submit">Отправить</button>
+                    </form>
                     <button class="modal-close" data-modal-close>
-                        <svg class="icon-close" width="20" height="20">
-                            <use href="./images/close1.svg#icon-close"></use>
+                        <svg class="icon-cross" width="20" height="20">
+                            <use href="./images/icons.svg#icon-cross"></use>
                         </svg>
                     </button>
                 </div>

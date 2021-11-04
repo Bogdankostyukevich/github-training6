@@ -249,6 +249,8 @@ ul {
     border: 0 solid transparent;
 }
 
+/* модальное окно */
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -277,7 +279,7 @@ ul {
 
     width: 528px;
     height: 581px;
-    padding: 15px;
+    /* padding: 15px; */
     background: var(--primery-white-color);
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -309,6 +311,19 @@ ul {
 .modal-close:hover,
 .modal-close:focus {
     fill: var(--accent-color);
+}
+
+.backdrop .text {
+    margin-top: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primery-text-color);
 }
 
 /* наши возможности */
