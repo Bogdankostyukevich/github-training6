@@ -53,27 +53,35 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <p class="text">Оставьте свои данные, мы вам перезвоним</p>
-                    <form>
-                        <label for="name">Имя
-                            <input type="text" name="name" id="name">
-                        </label>
+                    <form class="form">
+                        <div class="form-field">
+                            <label for="name" class="form-label">Имя</label>
+                                <input type="text" name="name" id="name"/>
+                                <svg width="12" height="12">
+                                <use href="./images/icons.svg#icon-handset"></use>
+                            </svg>
+                        </div>
 
-                        <label for="tel">Телефон
-                            <input type="text" name="tel" id="tel">
-                        </label>
+                        <div class="form-field">
+                            <label for="tel" class="form-label">Телефон</label>
+                                <input type="text" name="tel" id="tel"/>
+                        </div>
 
-                        <label for="mail">Почта
-                            <input type="email" name="mail" id="mail">
-                        </label>
+                        <div class="form-field">
+                            <label for="mail" class="form-label">Почта</label>
+                                <input type="email" name="mail" id="mail"/>
+                        </div>
 
-                        <label for="comment">Комментарий</label>
-                        <textarea name="comment" id="comment" rows="10"></textarea>
+                        <div class="form-field">
+                            <label for="comment" class="form-label">Комментарий</label>
+                            <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                        </div>
                         
 
                         <button type="submit">Отправить</button>
                     </form>
                     <button class="modal-close" data-modal-close>
-                        <svg class="icon-cross" width="20" height="20">
+                        <svg class="icon-cross" >
                             <use href="./images/icons.svg#icon-cross"></use>
                         </svg>
                     </button>

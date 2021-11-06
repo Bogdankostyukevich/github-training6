@@ -279,7 +279,7 @@ ul {
 
     width: 528px;
     height: 581px;
-    /* padding: 15px; */
+    padding: 40px;
     background: var(--primery-white-color);
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -314,7 +314,7 @@ ul {
 }
 
 .backdrop .text {
-    margin-top: 40px;
+    margin-bottom: 14px;
 
     font-style: normal;
     font-weight: bold;
@@ -325,6 +325,48 @@ ul {
 
     color: var(--primery-text-color);
 }
+
+/* формы модалки */
+
+.form {
+    /* width: 448px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    
+}
+
+.form-field label {
+    margin-bottom: 4px;
+}
+
+.form-field input {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 11px 11px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.form-field textarea {
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+}
+
 
 /* наши возможности */
 
