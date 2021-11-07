@@ -56,29 +56,39 @@
                     <form class="form">
                         <div class="form-field">
                             <label for="name" class="form-label">Имя</label>
-                                <input type="text" name="name" id="name"/>
-                                <svg width="12" height="12">
-                                <use href="./images/icons.svg#icon-handset"></use>
-                            </svg>
+                               <input type="text" name="name" id="name" class="form-input"/>
+                               <svg width="12" height="12" class="form-icon">
+                                   <use href="./images/icons.svg#icon-man"></use>
+                               </svg>
                         </div>
 
                         <div class="form-field">
                             <label for="tel" class="form-label">Телефон</label>
-                                <input type="text" name="tel" id="tel"/>
+                                <input type="text" name="tel" id="tel" class="form-input"/>
+                                <svg width="12" height="12" class="form-icon">
+                                    <use href="./images/icons.svg#icon-handset"></use>
+                                </svg>
                         </div>
 
                         <div class="form-field">
                             <label for="mail" class="form-label">Почта</label>
-                                <input type="email" name="mail" id="mail"/>
+                                <input type="email" name="mail" id="mail" class="form-input"/>
+                                <svg width="12" height="12" class="form-icon">
+                                    <use href="./images/icons.svg#icon-sms"></use>
+                                </svg>
                         </div>
 
                         <div class="form-field">
                             <label for="comment" class="form-label">Комментарий</label>
-                            <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                            <textarea name="comment" id="comment" rows="10" placeholder="Введите текст" class="form-input"></textarea>
+                        </div>
+
+                        <div role="group" class="form-agreement">
+                            <input type="checkbox" name="" value="Соглашение" id="Соглашение" class="checkbox"/>
+                            <label for="Соглашение" class="agreement">Соглашаюсь с рассылкой и принимаю <a href="" class="contract">Условия договора</a></label>
                         </div>
                         
-
-                        <button type="submit">Отправить</button>
+                        <button type="submit" class="send-button">Отправить</button>
                     </form>
                     <button class="modal-close" data-modal-close>
                         <svg class="icon-cross" >
