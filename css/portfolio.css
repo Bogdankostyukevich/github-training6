@@ -535,3 +535,77 @@ img {
     fill: currentColor;
 }
 
+.subscribe {
+    display: flex;
+    align-items: end;
+    margin-left: 93px;
+}
+
+.form-subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.mailing-form {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.subscribe-mailing-form {
+    width: 358px;
+    height: 50px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    background-color: var(--footer-color);
+    margin-right: 12px;
+
+    outline: none;
+
+    padding: 15px 16px;
+
+    caret-color: white;
+
+}
+
+.subscribe-mailing-form::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+}
+
+.subscribe-button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    height: 50px;
+
+    padding: 10px 29px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.icon-airplane {
+    margin-left: 10px;
+}
+
